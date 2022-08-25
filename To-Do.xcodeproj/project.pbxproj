@@ -11,6 +11,10 @@
 		F4BC48542772103B0084651E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC48532772103B0084651E /* ContentView.swift */; };
 		F4BC48562772103D0084651E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BC48552772103D0084651E /* Assets.xcassets */; };
 		F4BC48592772103D0084651E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BC48582772103D0084651E /* Preview Assets.xcassets */; };
+		F4BC4860277210970084651E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC485F277210970084651E /* TaskView.swift */; };
+		F4BC4864277212300084651E /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC4863277212300084651E /* TaskRow.swift */; };
+		F4BC4866277213BE0084651E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC4865277213BE0084651E /* AddTaskView.swift */; };
+		F4BC486827721DAD0084651E /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC486727721DAD0084651E /* SmallAddButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F4BC48532772103B0084651E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4BC48552772103D0084651E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4BC48582772103D0084651E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4BC485F277210970084651E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		F4BC4863277212300084651E /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		F4BC4865277213BE0084651E /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		F4BC486727721DAD0084651E /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		F4BC48502772103B0084651E /* To-Do */ = {
 			isa = PBXGroup;
 			children = (
+				F4BC4862277212150084651E /* Components */,
+				F4BC4861277210A20084651E /* Views */,
 				F4BC48512772103B0084651E /* To_DoApp.swift */,
-				F4BC48532772103B0084651E /* ContentView.swift */,
 				F4BC48552772103D0084651E /* Assets.xcassets */,
 				F4BC48572772103D0084651E /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				F4BC48582772103D0084651E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4BC4861277210A20084651E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4BC48532772103B0084651E /* ContentView.swift */,
+				F4BC485F277210970084651E /* TaskView.swift */,
+				F4BC4865277213BE0084651E /* AddTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4BC4862277212150084651E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F4BC4863277212300084651E /* TaskRow.swift */,
+				F4BC486727721DAD0084651E /* SmallAddButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BC4860277210970084651E /* TaskView.swift in Sources */,
+				F4BC4866277213BE0084651E /* AddTaskView.swift in Sources */,
 				F4BC48542772103B0084651E /* ContentView.swift in Sources */,
+				F4BC486827721DAD0084651E /* SmallAddButton.swift in Sources */,
 				F4BC48522772103B0084651E /* To_DoApp.swift in Sources */,
+				F4BC4864277212300084651E /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
